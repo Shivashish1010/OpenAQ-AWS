@@ -36,3 +36,18 @@ Often, specific solutions to improving air quality are local and sustained throu
 # Exploratory Analysis
 
 It is a good practice to understand the data first and try to gather as many insights from it, that is called as Exploratory Analysis. We have used Pandas library to figure out the insights from our dataset. Code to our exploratory data analysis - [Exploratory data anlysis](openAQ-exploratory-analytics.ipynb)
+
+# Dashboards
+
+We have created our dashboard using AWS Quicksight as well as Plotly and Streamlit.
+This is the folder to look for the Quicksight dashboards - [Quicksight Dashboard](Dashboard)
+
+In order to run the streamlit app and view the graphs and charts, you'll need to run the following after cloning the repository-
+
+```
+pip install -r requirements.txt
+```
+
+```
+streamlit run main.py
+```

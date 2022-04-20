@@ -2,7 +2,7 @@ import pandas as pd
 import plotly.express as px
 import streamlit as st
 
-df = pd.read_csv("overall_values_2022.csv",index_col="city")
+df = pd.read_csv("Dashboard/Datasets/overall_values_2022.csv",index_col="city")
 
 df.loc[df.value < 0, 'value'] = 0
 df['year'] = pd.to_datetime(df['utc_date'])
@@ -40,12 +40,12 @@ fig1 = px.line(df1, x='utc_date', y='value',color="country")
 st.write(fig1)
 
 # Avg Values over most polluting countries in 2019-2020 
-df_2020 = pd.read_csv("yearly_polluting_2019-2020.csv")
+df_2020 = pd.read_csv("Dashboard/Datasets/yearly_polluting_2019-2020.csv")
 fig2 = px.line(df_2020, x='country', y=['PM25_AVG_2019','PM25_AVG_2020'])
 st.write(fig2)
 
 # Yearly representation of total values in 2020 fro India
-df_most = pd.read_csv("most_polluting_2020.csv")
+df_most = pd.read_csv("Dashboard/Datasets/most_polluting_2020.csv")
 df_most = df_most.query("country == 'India'")
 fig3 = px.bar(df_most, x='city', y=['Jan','Feb','March','April','May','June','July','Aug','Sept','Oct','Nov','Dec'])
 st.write(fig3)
