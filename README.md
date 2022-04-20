@@ -23,3 +23,12 @@ Often, specific solutions to improving air quality are local and sustained throu
 - How the parameters in the dataset like CO2,CO,NO etc. affect different places?
 - How these parameteres affected during COVID-19?
 - Predict air quality based on historical data.
+
+# Tech Stack
+
+AWS - S3, Quicksight, Sagemaker.
+Python
+Pandas
+PySpark
+Streamlit
+Plotly
