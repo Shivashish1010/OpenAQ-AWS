@@ -32,3 +32,7 @@ Often, specific solutions to improving air quality are local and sustained throu
 - PySpark
 - Streamlit
 - Plotly
+
+# Exploratory Analysis
+
+It is a good practice to understand the data first and try to gather as many insights from it, that is called as Exploratory Analysis. We have used Pandas library to figure out the insights from our dataset. Code to our exploratory data analysis - [Exploratory data anlysis](openAQ-exploratory-analytics.ipynb)
