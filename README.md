@@ -26,9 +26,9 @@ Often, specific solutions to improving air quality are local and sustained throu
 
 # Tech Stack
 
-AWS - S3, Quicksight, Sagemaker.
-Python
-Pandas
-PySpark
-Streamlit
-Plotly
+- AWS: S3, Quicksight, Sagemaker.
+- Python
+- Pandas
+- PySpark
+- Streamlit
+- Plotly
