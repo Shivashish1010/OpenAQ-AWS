@@ -7,13 +7,13 @@ import altair as alt
 
 @st.experimental_memo
 def load_data():
-    df = pd.read_csv("sample-data.csv")
+    df = pd.read_csv("./datasets/april_data.csv")
     df = df.dropna(subset=["location"])
 
     return df
 
 def load_target_data():
-    df = pd.read_csv("target-data.csv")
+    df = pd.read_csv("./datasets/actual_data.csv")
     df = df.dropna(subset=["location"])
 
     return df
