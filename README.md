@@ -5,6 +5,10 @@
 3. Nehal Kathale
 4. Shivashish Naramdeo
 
+# Public URL
+
+https://share.streamlit.io/ayushi1019/openaq-aws/main/main.py
+
 # Dataset
 
 _OpenAQ_
@@ -32,6 +36,8 @@ Often, specific solutions to improving air quality are local and sustained throu
 - PySpark
 - Streamlit
 - Plotly
+- Altair
+- Stats Model for Prediction
 
 # Exploratory Analysis
 
